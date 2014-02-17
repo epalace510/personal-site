@@ -18,6 +18,20 @@ h1{
   font-family: 'Queens Park';
   font-size: 50px;
 }
+.social{
+  height:100px;
+  width:100px;
+  display:block;
+  overflow:hidden;
+}
+.social img{
+  transition:1s;
+  margin-top:-100px
+}
+.social:hover img{
+  margin-top:0px;
+  transition:1s;
+}
 @font-face{
   font-family: "Queens Park";
   src: url('Fonts/QUEENS__.TTF');
