@@ -1,0 +1,24 @@
+body
+{
+  background: none repeat rgb(20, 20, 20);
+  color: white;
+}
+a:link{
+  COLOR: white;
+  transition: color 1s
+}
+a:visited{
+  COLOR:white;
+}
+a:hover{
+  COLOR: #FF8000;
+  transition: color 1s;
+}
+h1{
+  font-family: 'Queens Park';
+  font-size: 50px;
+}
+@font-face{
+  font-family: "Queens Park";
+  src: url('Fonts/QUEENS__.TTF');
+}
